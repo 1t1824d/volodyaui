@@ -1,20 +1,26 @@
 <template>
-    <button @click="handleClick" :disabled='disabled'>
-        <slot></slot>
-        <img alt="Vue logo" src="@/assets/img/logo.png">
-        <div class="iconfont icon-shouji"></div>
-    </button>
+  <button @click="handleClick" :disabled="disabled">
+    <span class="iconfont icon-shouji myiconfont"></span>
+    <slot></slot>
+    <img alt="Vue logo" src="@/assets/img/logo.png" />
+  </button>
 </template>
 <script>
 export default {
-    name: "MyButton",
-    props: {
-        disabled: Boolean
+  name: "MyButton",
+  props: {
+    disabled: Boolean,
+  },
+  methods: {
+    handleClick(evt) {
+      this.$emit("click", evt);
     },
-    methods: {
-        handleClick(evt) {
-            this.$emit('click', evt);
-        }
-    }
+  },
 };
 </script>
+<style lang="scss" scoped>
+.myiconfont {
+  font-size: 28px;
+  color: red;
+}
+</style>
