@@ -1622,7 +1622,7 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/package/my-button/src/index.vue?vue&type=template&id=72bc9ea4&
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/package/my-button/src/index.vue?vue&type=template&id=43711d02&scoped=true&
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
@@ -1633,18 +1633,18 @@ var render = function render() {
     on: {
       "click": _vm.handleClick
     }
-  }, [_vm._t("default"), _c('img', {
+  }, [_c('span', {
+    staticClass: "iconfont icon-shouji myiconfont"
+  }), _vm._t("default"), _c('img', {
     attrs: {
       "alt": "Vue logo",
       "src": __webpack_require__(5080)
     }
-  }), _c('div', {
-    staticClass: "iconfont icon-shouji"
   })], 2);
 };
 var staticRenderFns = [];
 
-;// CONCATENATED MODULE: ./src/package/my-button/src/index.vue?vue&type=template&id=72bc9ea4&
+;// CONCATENATED MODULE: ./src/package/my-button/src/index.vue?vue&type=template&id=43711d02&scoped=true&
 
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/package/my-button/src/index.vue?vue&type=script&lang=js&
 /* harmony default export */ var srcvue_type_script_lang_js_ = ({
@@ -1654,12 +1654,17 @@ var staticRenderFns = [];
   },
   methods: {
     handleClick(evt) {
-      this.$emit('click', evt);
+      this.$emit("click", evt);
     }
   }
 });
 ;// CONCATENATED MODULE: ./src/package/my-button/src/index.vue?vue&type=script&lang=js&
  /* harmony default export */ var my_button_srcvue_type_script_lang_js_ = (srcvue_type_script_lang_js_); 
+;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-64.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-64.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-64.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-64.use[3]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/package/my-button/src/index.vue?vue&type=style&index=0&id=43711d02&prod&lang=scss&scoped=true&
+// extracted by mini-css-extract-plugin
+
+;// CONCATENATED MODULE: ./src/package/my-button/src/index.vue?vue&type=style&index=0&id=43711d02&prod&lang=scss&scoped=true&
+
 ;// CONCATENATED MODULE: ./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
 
@@ -1762,17 +1767,18 @@ function normalizeComponent(
 
 
 
+;
 
 
 /* normalize component */
-;
+
 var component = normalizeComponent(
   my_button_srcvue_type_script_lang_js_,
   render,
   staticRenderFns,
   false,
   null,
-  null,
+  "43711d02",
   null
   
 )
