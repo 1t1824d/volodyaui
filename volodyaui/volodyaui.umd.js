@@ -1786,6 +1786,7 @@ var component = normalizeComponent(
 /* harmony default export */ var my_button_src = (component.exports);
 ;// CONCATENATED MODULE: ./src/package/my-button/index.js
 
+// import '@/assets/iconfont/iconfont.css'
 
 my_button_src.install = function (Vue) {
   Vue.component(my_button_src.name, my_button_src);
