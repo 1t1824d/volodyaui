@@ -1786,8 +1786,6 @@ var component = normalizeComponent(
 /* harmony default export */ var my_button_src = (component.exports);
 ;// CONCATENATED MODULE: ./src/package/my-button/index.js
 
-// import '@/assets/iconfont/iconfont.css'
-
 my_button_src.install = function (Vue) {
   Vue.component(my_button_src.name, my_button_src);
 };
@@ -2543,6 +2541,7 @@ my_customchart_src.install = function (Vue) {
 
 
 
+//import '@/assets/fonts/iconfont.css'
 
 // 将引入的组件模块存储，方便循环注册所有组件
 const components = [my_button, my_clock, my_customchart];

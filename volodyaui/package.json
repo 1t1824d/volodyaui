@@ -1,6 +1,6 @@
 {
   "name": "volodyaui",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "",
   "main": "volodyaui.common.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "author": "",
   "license": "MIT",
   "private": false,
-  "homepage": "https://github.com/1t1824d/volodyaui", 
+  "homepage": "https://github.com/1t1824d/volodyaui",
   "bugs": {
     "url": "https://github.com/1t1824d/volodyaui"
   },
@@ -22,7 +22,6 @@
     "type": "git",
     "url": "https://github.com/1t1824d/volodyaui"
   },
-
   "dependencies": {
     "core-js": "^3.8.3",
     "echarts": "^5.3.1",

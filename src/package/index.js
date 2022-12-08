@@ -2,6 +2,7 @@
 import MyButton from "./my-button";
 import MyClock from "./my-clock";
 import MyCustomchart from "./my-customchart";
+//import '@/assets/fonts/iconfont.css'
 
 // 将引入的组件模块存储，方便循环注册所有组件
 const components = [
